@@ -9,7 +9,12 @@ public class Feliz implements Estado {
 	@Override
 	public void tomar() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Beep");
+		System.out.println("Beep");
+		System.out.println("Beep");
+		System.out.println("Beep");
+		System.out.println("Beep");
+			
 	}
 
 	@Override

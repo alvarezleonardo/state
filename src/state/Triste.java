@@ -10,6 +10,11 @@ public class Triste implements Estado {
 	@Override
 	public void tomar() {
 		// TODO Auto-generated method stub
+		System.out.println("Beep");
+		System.out.println("Beep");
+		System.out.println("Beep");
+
+		System.out.println("Se tildo");
 		
 	}
 
@@ -24,6 +29,7 @@ public class Triste implements Estado {
 	@Override
 	public void mimar() {
 		// TODO Auto-generated method stub
+		this.tamagotchi.setEstado(new Feliz(this.tamagotchi));
 		
 	}
 

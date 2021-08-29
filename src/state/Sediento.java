@@ -9,7 +9,8 @@ public class Sediento implements Estado {
 	@Override
 	public void tomar() {
 		// TODO Auto-generated method stub
-		
+		this.tamagotchi.setEstado(new Feliz(this.tamagotchi));
+
 	}
 
 	@Override
